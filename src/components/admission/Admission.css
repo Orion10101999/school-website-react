@@ -1,0 +1,34 @@
+/* src/components/Admission.css */
+
+.admission {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .admission h1, .admission h2 {
+    color: #333;
+  }
+  
+  .admission section {
+    margin-bottom: 20px;
+  }
+  
+  .admission ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .admission li {
+    margin-bottom: 10px;
+  }
+  
+  .admission a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .admission a:hover {
+    text-decoration: underline;
+  }
+  

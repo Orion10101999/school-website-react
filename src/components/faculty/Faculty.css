@@ -1,0 +1,38 @@
+/* Faculty.css */
+.faculty {
+    padding: 20px;
+    text-align: center;
+}
+
+.faculty h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.faculty-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.faculty-member {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.faculty-member:hover {
+    transform: scale(1.05);
+}
+
+.faculty-member h3 {
+    margin-top: 0;
+}
+
+.faculty-member p {
+    margin: 5px 0;
+}
