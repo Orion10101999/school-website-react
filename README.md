@@ -1,3 +1,9 @@
+### Deploy the website on a platform like Vercel .
+
+### Website Link: 
+```bash
+https://school-website-react-zeta.vercel.app/
+```
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -101,12 +107,6 @@ Submission Guidelines
 
 ### Include a README file with setup instructions and documentation.
 
-### Deploy the website on a platform like Vercel .
-
-### Submission Link: 
-```css
-https://school-website-react-zeta.vercel.app/home
-```
 
 * Google Form
 * Dummy Data
