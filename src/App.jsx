@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Academics from './components/academics/Academics'
 import Home from './pages/home/Home'
@@ -16,8 +16,8 @@ const App = () => {
       <Router>
         <Layout/>
       <Routes>
-    <Route path='/' element={<Admission/>} />
-    <Route path="/home" element={<Home/>} />
+    <Route path='/' element={<Home/>} />
+    <Route path="/addmission" element={<Admission/>} />
     <Route path="/aboutus" element={<AboutUs/>} />
     <Route path="/academics" element={<Academics/>} />
     <Route path="/faculty" element={<Faculty/>} />

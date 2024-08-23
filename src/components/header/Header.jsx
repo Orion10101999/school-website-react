@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -6,8 +6,8 @@ const Header = () => {
         <header className="bg-blue-600 p-4">
             <h1 className="text-center text-yellow-500 font-semibold text-3xl mb-5" >Springdale Public School</h1>
             <nav className="flex justify-around">
-                <Link to="/home" className="text-white hover:text-gray-300">Home</Link>
-                <Link to="/" className="text-white hover:text-gray-300">Admission</Link>
+                <Link to="/" className="text-white hover:text-gray-300">Home</Link>
+                <Link to="/addmission" className="text-white hover:text-gray-300">Admission</Link>
                 <Link to="/aboutus" className="text-white hover:text-gray-300">About Us</Link>
                 <Link to="/academics" className="text-white hover:text-gray-300">Academics</Link>
                 <Link to="/faculty" className="text-white hover:text-gray-300">Faculty</Link>
